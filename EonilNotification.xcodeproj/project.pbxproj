@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45EE18851C15BFDE009FB3FD /* EonilNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 45EE18841C15BFDE009FB3FD /* EonilNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45EE188C1C15BFDE009FB3FD /* EonilNotification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45EE18811C15BFDE009FB3FD /* EonilNotification.framework */; };
+		45EE18911C15BFDE009FB3FD /* EonilNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE18901C15BFDE009FB3FD /* EonilNotificationTests.swift */; };
+		45EE18A01C15C03F009FB3FD /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE189D1C15C03F009FB3FD /* Events.swift */; };
+		45EE18A11C15C03F009FB3FD /* Multicasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE189E1C15C03F009FB3FD /* Multicasting.swift */; };
+		45EE18A21C15C03F009FB3FD /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE189F1C15C03F009FB3FD /* Notification.swift */; };
+		45EE18A41C15C1DF009FB3FD /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 45EE18A31C15C1DF009FB3FD /* README.md */; };
+		45EE18A61C15C2C9009FB3FD /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EE18A51C15C2C9009FB3FD /* UtilityFunctions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45EE188D1C15BFDE009FB3FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45EE18781C15BFDE009FB3FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45EE18801C15BFDE009FB3FD;
+			remoteInfo = EonilNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45EE18811C15BFDE009FB3FD /* EonilNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EonilNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45EE18841C15BFDE009FB3FD /* EonilNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EonilNotification.h; sourceTree = "<group>"; };
+		45EE18861C15BFDE009FB3FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45EE188B1C15BFDE009FB3FD /* EonilNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EonilNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45EE18901C15BFDE009FB3FD /* EonilNotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EonilNotificationTests.swift; sourceTree = "<group>"; };
+		45EE18921C15BFDE009FB3FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45EE189D1C15C03F009FB3FD /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		45EE189E1C15C03F009FB3FD /* Multicasting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Multicasting.swift; sourceTree = "<group>"; };
+		45EE189F1C15C03F009FB3FD /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		45EE18A31C15C1DF009FB3FD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		45EE18A51C15C2C9009FB3FD /* UtilityFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityFunctions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45EE187D1C15BFDE009FB3FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EE18881C15BFDE009FB3FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EE188C1C15BFDE009FB3FD /* EonilNotification.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45EE18771C15BFDE009FB3FD = {
+			isa = PBXGroup;
+			children = (
+				45EE18A31C15C1DF009FB3FD /* README.md */,
+				45EE18831C15BFDE009FB3FD /* EonilNotification */,
+				45EE188F1C15BFDE009FB3FD /* EonilNotificationTests */,
+				45EE18821C15BFDE009FB3FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45EE18821C15BFDE009FB3FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45EE18811C15BFDE009FB3FD /* EonilNotification.framework */,
+				45EE188B1C15BFDE009FB3FD /* EonilNotificationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45EE18831C15BFDE009FB3FD /* EonilNotification */ = {
+			isa = PBXGroup;
+			children = (
+				45EE18841C15BFDE009FB3FD /* EonilNotification.h */,
+				45EE189D1C15C03F009FB3FD /* Events.swift */,
+				45EE189F1C15C03F009FB3FD /* Notification.swift */,
+				45EE189E1C15C03F009FB3FD /* Multicasting.swift */,
+				45EE18A51C15C2C9009FB3FD /* UtilityFunctions.swift */,
+				45EE18861C15BFDE009FB3FD /* Info.plist */,
+			);
+			path = EonilNotification;
+			sourceTree = "<group>";
+		};
+		45EE188F1C15BFDE009FB3FD /* EonilNotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				45EE18901C15BFDE009FB3FD /* EonilNotificationTests.swift */,
+				45EE18921C15BFDE009FB3FD /* Info.plist */,
+			);
+			path = EonilNotificationTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		45EE187E1C15BFDE009FB3FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EE18851C15BFDE009FB3FD /* EonilNotification.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45EE18801C15BFDE009FB3FD /* EonilNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45EE18951C15BFDE009FB3FD /* Build configuration list for PBXNativeTarget "EonilNotification" */;
+			buildPhases = (
+				45EE187C1C15BFDE009FB3FD /* Sources */,
+				45EE187D1C15BFDE009FB3FD /* Frameworks */,
+				45EE187E1C15BFDE009FB3FD /* Headers */,
+				45EE187F1C15BFDE009FB3FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EonilNotification;
+			productName = EonilNotification;
+			productReference = 45EE18811C15BFDE009FB3FD /* EonilNotification.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		45EE188A1C15BFDE009FB3FD /* EonilNotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45EE18981C15BFDE009FB3FD /* Build configuration list for PBXNativeTarget "EonilNotificationTests" */;
+			buildPhases = (
+				45EE18871C15BFDE009FB3FD /* Sources */,
+				45EE18881C15BFDE009FB3FD /* Frameworks */,
+				45EE18891C15BFDE009FB3FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45EE188E1C15BFDE009FB3FD /* PBXTargetDependency */,
+			);
+			name = EonilNotificationTests;
+			productName = EonilNotificationTests;
+			productReference = 45EE188B1C15BFDE009FB3FD /* EonilNotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45EE18781C15BFDE009FB3FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Eonil;
+				TargetAttributes = {
+					45EE18801C15BFDE009FB3FD = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					45EE188A1C15BFDE009FB3FD = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 45EE187B1C15BFDE009FB3FD /* Build configuration list for PBXProject "EonilNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45EE18771C15BFDE009FB3FD;
+			productRefGroup = 45EE18821C15BFDE009FB3FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45EE18801C15BFDE009FB3FD /* EonilNotification */,
+				45EE188A1C15BFDE009FB3FD /* EonilNotificationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45EE187F1C15BFDE009FB3FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EE18891C15BFDE009FB3FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45EE187C1C15BFDE009FB3FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EE18A01C15C03F009FB3FD /* Events.swift in Sources */,
+				45EE18A11C15C03F009FB3FD /* Multicasting.swift in Sources */,
+				45EE18A41C15C1DF009FB3FD /* README.md in Sources */,
+				45EE18A61C15C2C9009FB3FD /* UtilityFunctions.swift in Sources */,
+				45EE18A21C15C03F009FB3FD /* Notification.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45EE18871C15BFDE009FB3FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EE18911C15BFDE009FB3FD /* EonilNotificationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45EE188E1C15BFDE009FB3FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45EE18801C15BFDE009FB3FD /* EonilNotification */;
+			targetProxy = 45EE188D1C15BFDE009FB3FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		45EE18931C15BFDE009FB3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45EE18941C15BFDE009FB3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45EE18961C15BFDE009FB3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = EonilNotification/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eonil.Notification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45EE18971C15BFDE009FB3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = EonilNotification/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eonil.Notification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		45EE18991C15BFDE009FB3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EonilNotificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eonil.EonilNotificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45EE189A1C15BFDE009FB3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EonilNotificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eonil.EonilNotificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45EE187B1C15BFDE009FB3FD /* Build configuration list for PBXProject "EonilNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45EE18931C15BFDE009FB3FD /* Debug */,
+				45EE18941C15BFDE009FB3FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45EE18951C15BFDE009FB3FD /* Build configuration list for PBXNativeTarget "EonilNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45EE18961C15BFDE009FB3FD /* Debug */,
+				45EE18971C15BFDE009FB3FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45EE18981C15BFDE009FB3FD /* Build configuration list for PBXNativeTarget "EonilNotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45EE18991C15BFDE009FB3FD /* Debug */,
+				45EE189A1C15BFDE009FB3FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45EE18781C15BFDE009FB3FD /* Project object */;
+}
