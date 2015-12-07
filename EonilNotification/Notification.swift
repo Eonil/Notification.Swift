@@ -9,7 +9,7 @@
 import Foundation
 
 public struct EventNotification<SenderType, EventType>: NotificationType {
-	init(sender: SenderType, event: EventType) {
+	public init(sender: SenderType, event: EventType) {
 		self.sender = sender
 		self.event = event
 	}
@@ -39,16 +39,16 @@ public struct EventNotification<SenderType, EventType>: NotificationType {
 /// But you can observe for them if one of them are notified using `ModelNotification.broadcast`.
 /// The notification will be arrived **before** observer registered to `ModelNotification`.
 ///
-protocol NotificationType {
+public protocol NotificationType {
 	static func register<T: AnyObject>(object: T, _ instanceMethod: T -> Self -> ())
 	static func deregister<T: AnyObject>(object: T)
 //	static func register(identifier: ObjectIdentifier, _ function: Self->())
 //	static func deregister(identifier: ObjectIdentifier)
 }
 
-extension NotificationType {
+public extension NotificationType {
 	/// Broadcast self globally.
-	func broadcast() {
+	public func broadcast() {
 		_cast(self)
 	}
 
