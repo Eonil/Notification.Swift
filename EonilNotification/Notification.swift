@@ -115,14 +115,17 @@ private func _searchBroadcastingStation<T: NotificationType>(_: T.Type) -> Multi
 }
 
 
-
+private var global_casting_flag_to_prohibit_reentering = false
 private func _cast<N: NotificationType>(instance: N) {
         assertMainThread()
+        assert(global_casting_flag_to_prohibit_reentering == false)
+        global_casting_flag_to_prohibit_reentering = true
 	let typeID = ObjectIdentifier(N)
 	if let mc = _mappings[typeID] {
 		let mc1 = mc as! MulticastStation<N>
 		mc1.cast(instance)
 	}
+        global_casting_flag_to_prohibit_reentering = false
 //	Debug.log("Did broadcast:  \(N.self) \(instance)")
 }
 
